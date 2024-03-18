@@ -1,4 +1,3 @@
-
 # Text Summarization using Pegasus Model
 
 This project demonstrates text summarization using the Pegasus model through a Flask web application.
@@ -62,6 +61,18 @@ docker run -p 5000:5000 summarization-app
 
 3. Open a web browser and go to `http://localhost:5000` to access the application.
 
+## Project Directory Structure
+
+```
+project_folder/
+│
+├── app.py
+├── Dockerfile
+├── requirements.txt
+└── templates/
+    └── index.html
+```
+
 ## How it works
 
 - The Flask application provides a form where users can input text.
@@ -79,16 +90,3 @@ docker run -p 5000:5000 summarization-app
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-
-
-
-
-
-project_folder/
-│
-├── app.py
-├── Dockerfile
-├── requirements.txt
-└── templates/
-    └── index.html
