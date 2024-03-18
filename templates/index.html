@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarization</title>
+</head>
+<body>
+    <h1>Text Summarization using Pegasus Model</h1>
+    <form action="/summarize" method="post">
+        <textarea name="input_text" rows="10" cols="50" placeholder="Enter text to summarize...">{{ input_text }}</textarea>
+        <br>
+        <input type="submit" value="Summarize">
+    </form>
+    {% if summary %}
+    <h2>Summary:</h2>
+    <textarea rows="5" cols="50" readonly>{{ summary }}</textarea>
+    {% endif %}
+</body>
+</html>
