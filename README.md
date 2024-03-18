@@ -3,10 +3,8 @@
 
 ##Project Structure
 
-project_folder/
-│
-├── app.py
-├── Dockerfile
-├── requirements.txt
-└── templates/
+1. app.py
+2. Dockerfile
+3. requirements.txt
+4. tmplates
     └── index.html
